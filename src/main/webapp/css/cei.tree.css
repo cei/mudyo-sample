@@ -1,0 +1,82 @@
+@CHARSET "utf-8";
+
+ul.cei-tree,
+ul.cei-tree ul,
+ul.cei-tree li {
+	font-size: 10pt;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-ms-user-select: none;
+}
+
+ul.cei-tree li {
+	margin-left: 24px;
+}
+ul.cei-tree > li {
+	margin-left: 0;
+}
+
+ul.cei-tree ul {
+	background:url("/img/tree_clip.png") repeat-y 0 0;
+}
+ul.cei-tree span.clip {
+	background-image: url("/img/tree_clip.png");
+	background-repeat: no-repeat;
+	background-position: 0 -904px;
+}
+
+ul.cei-tree li.parent > span.clip,
+ul.cei-tree li.parent.close > span.clip {
+	background-position: 0 -880px;
+}
+ul.cei-tree li.parent.open > span.clip {
+	background-position: 0 -856px;
+}
+
+
+ul.cei-tree li.last > span.clip {
+	background-position: 0 -976px;
+}
+ul.cei-tree li.last.parent > span.clip,
+ul.cei-tree li.last.parent.close > span.clip {
+	background-position: 0 -952px;
+}
+ul.cei-tree li.last.parent.open > span.clip {
+	background-position: 0 -928px;
+}
+
+
+ul.cei-tree li.parent > ul {
+	display: none;	
+}
+ul.cei-tree li.last > ul {
+	background: none;
+}
+
+ul.cei-tree a {
+	display: inline-block;
+	line-height: 23px;
+	padding: 0 3px;
+}
+ul.cei-tree a:hover {
+	background-color:#eee;
+}
+ul.cei-tree li.selected > a,
+ul.cei-tree a:active {
+	background-color:#ddd;
+}
+
+ul.cei-tree span.clip {
+	display: inline-block;
+	width:24px;
+	height:24px;
+	vertical-align: middle;
+}
+ul.cei-tree a,
+ul.cei-tree span.clip {
+	cursor: pointer;
+}

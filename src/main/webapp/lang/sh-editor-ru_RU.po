@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Syntax Highlighting Editor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-07 16:47+0600\n"
+"PO-Revision-Date: 2012-08-07 16:48+0600\n"
+"Last-Translator: ZetRider <zetrider@bk.ru>\n"
+"Language-Team: TTWeb <zetrider@bk.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: Z:\\xampp\\htdocs\\12000.ru\\www\\wp-content\\plugins\\sh-editor\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: Z:\\xampp\\htdocs\\12000.ru\\www\\wp-content\\plugins\\sh-editor\n"
+
+#: Z:\xampp\htdocs\12000.ru\www\wp-content\plugins\sh-editor/sh-editor.php:42
+msgid "Settings Syntax Highlighting Editor"
+msgstr "Настройка Syntax Highlighting Editor"
+
+#: Z:\xampp\htdocs\12000.ru\www\wp-content\plugins\sh-editor/sh-editor.php:50
+msgid "Syntax Editor:"
+msgstr "Синтаксис редактора:"
+
+#: Z:\xampp\htdocs\12000.ru\www\wp-content\plugins\sh-editor/sh-editor.php:60
+msgid "Language editor:"
+msgstr "Язык редактора:"
+
+#: Z:\xampp\htdocs\12000.ru\www\wp-content\plugins\sh-editor/sh-editor.php:85
+msgid "Save"
+msgstr "Сохранить"
+
+#~ msgid "Студия TTWeb"
+#~ msgstr "Studio TTWeb"
+
+#~ msgid "Создание и продвижение сайтов"
+#~ msgstr "Development and promotion Web sites"
+
+#~ msgid "Разработка дизайна сайтов, логотипов, визиток, и пр."
+#~ msgstr "Development of site design, logos, business cards, etc."
+
+#~ msgid "Разработка и перевод плагинов"
+#~ msgstr "Development and transfer of plugins"
+
+#~ msgid "Синтаксис языка в редакторе:"
+#~ msgstr "Language syntax in the editor:"
+
+#~ msgid "Язык редактора:"
+#~ msgstr "Language Editor:"
+
+#~ msgid "Сохранить"
+#~ msgstr "Save"
